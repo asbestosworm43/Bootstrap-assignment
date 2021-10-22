@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bootstrap</title>
+
+  <link rel="stylesheet" href="style/styles.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+<header>
+  <div class="bg-dark collapse" id="navbarHeader" style>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4 class="text-white">About</h4>
+          <p class="text-muted">Add some information about 
+            the album below, the author, or any other 
+            background context. Make it a few sentences 
+            long so folks can pick up some informative 
+            tidbits. Then, link them off to some social 
+            networking sites or contact information.
+          </p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4 class="text-white">Contact</h4>
+          <ul>
+            <li>
+              <a href="#" class="text-white">Follow on Twitter</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">Like on Facebook</a>
+            </li>
+            <li>
+              <a href="#" class="text-white">Email me</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="navbar navbar-dark bg-success box-shadow">
+    <div class="container d-flex justify-content-between">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <svg 
+          xmlns="http://www.w3.org/2000/svg" 
+          width="20" 
+          height="20" 
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          class="mr-2"><path 
+            d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z">
+          </path>
+          <circle cx="12" cy="13" r="4">
+          </circle>
+        </svg>
+        <strong>Content</strong>
+      </a>
+      <button class="navbar-toggler collapsed" 
+        type="button" 
+        data-toggle="collapse" 
+        data-target="#navbarHeader" 
+        aria-controls="navbarHeader" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main role="main">
+  <section class="jumbotron text-center bg-light">
+    <div class="container">
+      <h1 class="lead text-muted">An album about stuff i like</h1>
+      <p class="lead text-muted"> 
+        This is stuff that has been part
+        of my life a very long time and mean alot to me. 
+        I always have had a passion for computers, 
+        always found "Adventure Time" funny,
+        always wanted to play the drums, so i learned,
+        thought climbing was looking rad, so i started.
+      </p>
+      <p> 
+        <a href="#" class="btn float-right btn-primary my-2y">Main Button</a>
+        <a href="#" class="btn btn-info my-2">Informative</a>
+        <a href="#" class="btn btn-danger my-2">Danger</a>
+        <a href="#" class="btn btn-warning my-2">Warning</a>
+        <a href="#" class="btn float-left btn-secondary my-2">Secondary Button</a>
+      </p>
+    </div>
+  </section>
+  <div class="album py-5 bg-">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="img-fluid" 
+              data-src="holder.js/100px225?theme=tumb&bg=55595c&fg=eceeef&text=Thumbnail" 
+              alt="Card image cap" 
+              style="height: 225px; width: 100%; display: block;" 
+              src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" 
+              data-holder-rendered="true">
+              <a href="https://www.google.com/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            <div class="card-body">
+              <p class="card-text">
+                Computer stuff: 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Aliquid voluptas ea excepturi fuga? Pariatur est ducimus 
+                nulla dolorem quaerat unde, quas atque inventore, 
+                nesciunt ea voluptatibus a, asperiores corporis repudiandae!
+              </p>
+              <div class="d-flex justify-content-beteween align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="img-fluid" 
+              data-src="holder.js/100px225?theme=tumb&bg=55595c&fg=eceeef&text=Thumbnail" 
+              alt="Thumbnail [100%x225]" 
+              style="height: 225px; width: 100%; display: block;" 
+              src="images/Finn_with_five_fingers-630x515.png" 
+              data-holder-rendered="true">
+              <a href="https://www.google.com/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            <div class="card-body">
+              <p class="card-text">
+                Adventure time: 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Ipsum esse maxime cupiditate amet veritatis quam est, 
+                ullam hic sapiente autem labore quibusdam sequi nisi 
+                veniam reiciendis at quas iure consequatur.
+              </p>
+              <div class="d-flex justify-content-beteween align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"> </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="img-fluid" 
+              data-src="holder.js/100px225?theme=tumb&bg=55595c&fg=eceeef&text=Thumbnail" 
+              alt="Card image cap" 
+              style="height: 225px; width: 100%; display: block;" 
+              src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" 
+              data-holder-rendered="true">
+              <a href="https://www.google.com/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            <div class="card-body">
+              <p class="card-text">
+                Computer stuff: 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Aliquid voluptas ea excepturi fuga? Pariatur est ducimus 
+                nulla dolorem quaerat unde, quas atque inventore, 
+                nesciunt ea voluptatibus a, asperiores corporis repudiandae!
+              </p>
+              <div class="d-flex justify-content-beteween align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"> </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" 
+              data-src="holder.js/100px225?theme=tumb&bg=55595c&fg=eceeef&text=Thumbnail" 
+              alt="Card image cap"
+              style="height: 250px; width: 100%; display: block;" 
+              src="images/drums.jpg"
+              data-holder-rendered="true">
+              <a href="https://www.google.com/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            <div class="card-body">
+              <p class="card-text">
+                Drums: 
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Repellat, odio accusamus et animi rem praesentium aut 
+                aspernatur ab sit neque ipsam culpa facere nam exercitationem 
+                repudiandae voluptatum! Aspernatur, cupiditate eveniet?
+              </p>
+              <div class="d-flex justify-content-beteween align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-light">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"> </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="img-fluid" 
+            data-src="holder.js/100px225?theme=tumb&bg=55595c&fg=eceeef&text=Thumbnail" 
+            alt="Thumbnail [100%x225]" 
+            style="height: 225px; width: 100%; display: block;" 
+            src="images/Finn_with_five_fingers-630x515.png" 
+            data-holder-rendered="true">
+            <a href="https://www.google.com/">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                Adventure time: 
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Ipsum esse maxime cupiditate amet veritatis quam est, 
+                ullam hic sapiente autem labore quibusdam sequi nisi 
+                veniam reiciendis at quas iure consequatur.
+              </p>
+              <div class="d-flex justify-content-beteween align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"> </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" 
+              data-src="holder.js/100px225?theme=tumb&bg=55595c&fg=eceeef&text=Thumbnail" 
+              alt="Card image cap" 
+              style="height: 750px; width: 100%; display: block;" 
+              src="images/climb.png" 
+              data-holder-rendered="true">
+              <a href="https://www.google.com/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            <div class="card-body">
+              <p class="card-text">
+                Climbing: Halfdome in Yosemite national park, climber; Alex honnold. Free-solo
+              </p>
+              <div class="d-flex justify-content-beteween align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-info">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="img-fluid" 
+            data-src="holder.js/100px225?theme=tumb&bg=55595c&fg=eceeef&text=Thumbnail" 
+            alt="Card image cap" 
+            style="height: 225px; width: 100%; display: block;" 
+            src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" 
+            data-holder-rendered="true">
+            <a href="https://www.google.com/">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                Computer stuff: 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Aliquid voluptas ea excepturi fuga? Pariatur est ducimus 
+                nulla dolorem quaerat unde, quas atque inventore, 
+                nesciunt ea voluptatibus a, asperiores corporis repudiandae!
+              </p>
+              <div class="d-flex justify-content-beteween align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"> </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" 
+              data-src="holder.js/100px225?theme=tumb&bg=55595c&fg=eceeef&text=Thumbnail" 
+              alt="Card image cap"
+              style="height: 250px; width: 100%; display: block;" 
+              src="images/drums.jpg"
+              data-holder-rendered="true">
+              <a href="https://www.google.com/">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            <div class="card-body">
+              <p class="card-text">
+                Drums: 
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Repellat, odio accusamus et animi rem praesentium aut 
+                aspernatur ab sit neque ipsam culpa facere nam exercitationem 
+                repudiandae voluptatum! Aspernatur, cupiditate eveniet?
+              </p>
+              <div class="d-flex justify-content-beteween align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-light">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"> </small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" 
+            data-src="holder.js/100px225?theme=tumb&bg=55595c&fg=eceeef&text=Thumbnail" 
+            alt="Card image cap" 
+            style="height: 750px; width: 100%; display: block;" 
+            src="images/climb.png" 
+            data-holder-rendered="true">
+            <a href="https://www.google.com/">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <div class="card-body">
+              <p class="card-text">
+                Climbing: Halfdome in Yosemite national park, climber; Alex honnold. Free-solo
+              </p>
+              <div class="d-flex justify-content-beteween align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-info">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted"> </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a href="#">Back to top</a>
+    </p>
+    <p>
+      Just a random "collage" of things that i Like
+     </p>
+    <p>
+      Please tell me what you think about it! 
+      Also alot of the elements are experimental and only for show :P 
+    </p>
+  </div>
+
+</footer>
+
+</body>
+</html>
+
